@@ -1,0 +1,24 @@
+.map-container {
+    width: 100%;
+    height: 800px;
+    max-height: 70vh;
+}
+
+.hypertext-display {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        height: 300px;
+    }
+}
+
+.hypertext-media {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
